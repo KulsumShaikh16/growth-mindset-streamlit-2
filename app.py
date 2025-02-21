@@ -36,6 +36,10 @@ if achievement:
 else:
     st.info("💖 Acknowledging small wins keeps you motivated! Share yours.")
 
-# Footer
-st.write("🌈 Believe in yourself, stay consistent, and keep moving forward! 🚀")
-st.write("© 2025 Created by Kulsum Shaikh ✨")
+# Footer (Centered)
+st.markdown("""
+    <div style="text-align: center; margin-top: 50px;">
+        <p style="font-size: 18px;">🌈 Believe in yourself, stay consistent, and keep moving forward! 🚀</p>
+        <p style="font-size: 16px;">© 2025 Created by Kulsum Shaikh ✨</p>
+    </div>
+""", unsafe_allow_html=True)
